@@ -1,0 +1,33 @@
+body {
+  background: tan;
+  font-family: sans-serif;
+  max-width: 340px;
+  margin: 20px auto;
+}
+main {
+  display: flex;
+}
+a {
+  color: green;
+}
+img {
+  max-width: 100%;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 4px 6px 8px;
+  rotate: -5deg;
+  border-bottom: 58px solid white;
+  border: 15px white solid;
+  transition: 5s;
+}
+ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding-left: 0px;
+}
+button {
+  background: red;
+  border-radius: 30px;
+  border: 3px white solid;
+  color: white;
+}
